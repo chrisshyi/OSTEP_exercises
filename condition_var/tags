@@ -1,0 +1,94 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Cond_init	./mythreads.h	/^void Cond_init(pthread_cond_t *c) {$/;"	f
+Cond_signal	./mythreads.h	/^void Cond_signal(pthread_cond_t *c) {$/;"	f
+Cond_wait	./mythreads.h	/^void Cond_wait(pthread_cond_t *c, pthread_mutex_t *m) {$/;"	f
+EMPTY	./pc-header.h	18;"	d
+END_OF_STREAM	./pc-header.h	19;"	d
+MAX_THREADS	./pc-header.h	4;"	d
+Malloc	./mythreads.h	/^void *Malloc(size_t size) {$/;"	f
+Mutex_init	./mythreads.h	/^void Mutex_init(pthread_mutex_t *m) {$/;"	f
+Mutex_lock	./mythreads.h	/^void Mutex_lock(pthread_mutex_t *m) {$/;"	f
+Mutex_unlock	./mythreads.h	/^void Mutex_unlock(pthread_mutex_t *m) {$/;"	f
+Pthread_create	./mythreads.h	/^void Pthread_create(pthread_t *thread, const pthread_attr_t *attr, 	$/;"	f
+Pthread_join	./mythreads.h	/^void Pthread_join(pthread_t thread, void **value_ptr) {$/;"	f
+Time_GetSeconds	./mythreads.h	/^double Time_GetSeconds() {$/;"	f
+__MYTHREADS_h__	./mythreads.h	2;"	d
+__main_header_h__	./main-header.h	2;"	d
+__pc_header_h__	./pc-header.h	2;"	d
+buffer	./pc-header.h	/^int *buffer;               \/\/ the buffer itself: malloc in main()$/;"	v
+c0	./main-header.h	17;"	d
+c1	./main-header.h	18;"	d
+c2	./main-header.h	19;"	d
+c3	./main-header.h	20;"	d
+c4	./main-header.h	21;"	d
+c5	./main-header.h	22;"	d
+c6	./main-header.h	23;"	d
+consumer	./main-one-cv-while.c	/^void *consumer(void *arg) {$/;"	f
+consumer	./main-two-cvs-if.c	/^void *consumer(void *arg) {$/;"	f
+consumer	./main-two-cvs-while-extra-unlock.c	/^void *consumer(void *arg) {$/;"	f
+consumer	./main-two-cvs-while.c	/^void *consumer(void *arg) {$/;"	f
+consumer_pause_times	./main-header.h	/^int consumer_pause_times[MAX_THREADS][7];$/;"	v
+consumers	./pc-header.h	/^int consumers = 1;         \/\/ number of consumers$/;"	v
+cv	./main-one-cv-while.c	/^pthread_cond_t cv = PTHREAD_COND_INITIALIZER;$/;"	v
+do_eos	./main-header.h	/^void do_eos() {$/;"	f
+do_fill	./main-one-cv-while.c	/^void do_fill(int value) {$/;"	f
+do_fill	./main-two-cvs-if.c	/^void do_fill(int value) {$/;"	f
+do_fill	./main-two-cvs-while-extra-unlock.c	/^void do_fill(int value) {$/;"	f
+do_fill	./main-two-cvs-while.c	/^void do_fill(int value) {$/;"	f
+do_get	./main-one-cv-while.c	/^int do_get() {$/;"	f
+do_get	./main-two-cvs-if.c	/^int do_get() {$/;"	f
+do_get	./main-two-cvs-while-extra-unlock.c	/^int do_get() {$/;"	f
+do_get	./main-two-cvs-while.c	/^int do_get() {$/;"	f
+do_pause	./main-header.h	/^void do_pause(int thread_id, int is_producer, int pause_slot, char *str) {$/;"	f
+do_print_buffer	./main-header.h	/^void do_print_buffer() {$/;"	f
+do_print_headers	./main-header.h	/^void do_print_headers() {$/;"	f
+do_print_pointers	./main-header.h	/^void do_print_pointers(int index) {$/;"	f
+do_timing	./main-header.h	/^int do_timing = 0;$/;"	v
+do_trace	./main-header.h	/^int do_trace = 0;$/;"	v
+empty	./main-two-cvs-if.c	/^pthread_cond_t empty  = PTHREAD_COND_INITIALIZER;$/;"	v
+empty	./main-two-cvs-while-extra-unlock.c	/^pthread_cond_t empty  = PTHREAD_COND_INITIALIZER;$/;"	v
+empty	./main-two-cvs-while.c	/^pthread_cond_t empty  = PTHREAD_COND_INITIALIZER;$/;"	v
+empty_cv	./main-one-cv-while.c	/^pthread_cond_t *empty_cv = &cv;$/;"	v
+empty_cv	./main-two-cvs-if.c	/^pthread_cond_t *empty_cv = &empty;$/;"	v
+empty_cv	./main-two-cvs-while-extra-unlock.c	/^pthread_cond_t *empty_cv = &empty;$/;"	v
+empty_cv	./main-two-cvs-while.c	/^pthread_cond_t *empty_cv = &empty;$/;"	v
+ensure	./main-header.h	/^void ensure(int expression, char *msg) {$/;"	f
+fill	./main-two-cvs-if.c	/^pthread_cond_t fill   = PTHREAD_COND_INITIALIZER;$/;"	v
+fill	./main-two-cvs-while-extra-unlock.c	/^pthread_cond_t fill   = PTHREAD_COND_INITIALIZER;$/;"	v
+fill	./main-two-cvs-while.c	/^pthread_cond_t fill   = PTHREAD_COND_INITIALIZER;$/;"	v
+fill_cv	./main-one-cv-while.c	/^pthread_cond_t *fill_cv = &cv;$/;"	v
+fill_cv	./main-two-cvs-if.c	/^pthread_cond_t *fill_cv = &fill;$/;"	v
+fill_cv	./main-two-cvs-while-extra-unlock.c	/^pthread_cond_t *fill_cv = &fill;$/;"	v
+fill_cv	./main-two-cvs-while.c	/^pthread_cond_t *fill_cv = &fill;$/;"	v
+fill_ptr	./pc-header.h	/^int fill_ptr = 0;          \/\/ tracks where next produce should go to$/;"	v
+loops	./pc-header.h	/^int loops;                 \/\/ number of items that each producer produces$/;"	v
+m	./main-one-cv-while.c	/^pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m	./main-two-cvs-if.c	/^pthread_mutex_t m     = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m	./main-two-cvs-while-extra-unlock.c	/^pthread_mutex_t m     = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m	./main-two-cvs-while.c	/^pthread_mutex_t m     = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+main	./main-common.c	/^int main(int argc, char *argv[]) {$/;"	f
+max	./pc-header.h	/^int max;                   \/\/ size of the producer\/consumer buffer$/;"	v
+num_full	./pc-header.h	/^int num_full = 0;          \/\/ counts how many entries are full$/;"	v
+p0	./main-header.h	9;"	d
+p1	./main-header.h	10;"	d
+p2	./main-header.h	11;"	d
+p3	./main-header.h	12;"	d
+p4	./main-header.h	13;"	d
+p5	./main-header.h	14;"	d
+p6	./main-header.h	15;"	d
+parse_pause_string	./main-header.h	/^void parse_pause_string(char *str, char *name, int expected_pieces, $/;"	f
+print_lock	./main-header.h	/^pthread_mutex_t print_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+producer	./main-one-cv-while.c	/^void *producer(void *arg) {$/;"	f
+producer	./main-two-cvs-if.c	/^void *producer(void *arg) {$/;"	f
+producer	./main-two-cvs-while-extra-unlock.c	/^void *producer(void *arg) {$/;"	f
+producer	./main-two-cvs-while.c	/^void *producer(void *arg) {$/;"	f
+producer_pause_times	./main-header.h	/^int producer_pause_times[MAX_THREADS][7];$/;"	v
+producers	./pc-header.h	/^int producers = 1;         \/\/ number of producers$/;"	v
+usage	./main-common.c	/^void usage() {$/;"	f
+use_ptr	./pc-header.h	/^int use_ptr  = 0;          \/\/ tracks where next consume should come from$/;"	v
+work	./mythreads.h	/^void work(int seconds) {$/;"	f
